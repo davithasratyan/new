@@ -1,14 +1,21 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <script type='text/javascript'
+            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Atr4d5l22jvlJKFyx4LT_kh0dZhAXCFYAH1N0nFO3ePncdg9lf0O_stsCD2x7jmE'
+            async defer></script>
+
+    <script type='text/javascript'>
+        function GetMap()
+        {
+            var map = new Microsoft.Maps.Map('#myMap');
+        }
+    </script>
 </head>
 <body>
-
-<p>are</p>
+<div id="myMap" style="position:relative;width:600px;height:400px;"></div>
 </body>
 </html>
